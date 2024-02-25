@@ -1,7 +1,7 @@
 {
-    "name": "moment",
-    "version": "2.30.1",
-    "description": "Parse, validate, manipulate, and display dates",
+    "name": "@happy/moment",
+    "version": "1.0.0",
+    "description": "Parse, validate, manipulate, and display dates(forked from momentjs)",
     "homepage": "https://momentjs.com",
     "author": "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
     "contributors": [
