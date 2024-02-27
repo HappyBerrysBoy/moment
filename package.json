@@ -1,6 +1,6 @@
 {
-    "name": "@happy/moment",
-    "version": "1.0.0",
+    "name": "happy-moment",
+    "version": "1.0.1",
     "description": "Parse, validate, manipulate, and display dates(forked from momentjs)",
     "homepage": "https://momentjs.com",
     "author": "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
@@ -40,13 +40,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/moment/moment.git"
+        "url": "https://github.com/HappyBerrysBoy/moment.git"
     },
     "bugs": {
-        "url": "https://github.com/moment/moment/issues"
+        "url": "https://github.com/HappyBerrysBoy/moment/issues"
     },
     "license": "MIT",
     "devDependencies": {
+        "@types/node": "17.0.21",
         "benchmark": "latest",
         "coveralls": "latest",
         "cross-env": "^6.0.3",
@@ -79,8 +80,7 @@
         "rollup": "2.17.1",
         "typescript": "^1.8.10",
         "typescript3": "npm:typescript@^3.1.6",
-        "uglify-js": "latest",
-        "@types/node": "17.0.21"
+        "uglify-js": "latest"
     },
     "ender": "./ender.js",
     "dojoBuild": "package.js",
@@ -112,5 +112,8 @@
         "output": [
             "locale/*.js"
         ]
+    },
+    "dependencies": {
+        "@upvu/dsteem": "^1.1.7"
     }
 }
